@@ -1,9 +1,14 @@
 import { render } from "preact";
 import "./styles/main.scss";
-import Dashboard from "./pages/Dashboard";
+import DashboardLayout from "./layouts/DashboardLayout";
+import { LocationProvider } from "preact-iso";
 
 export function App() {
-  return <Dashboard />;
+  return (
+    <LocationProvider>
+      <DashboardLayout />;
+    </LocationProvider>
+  );
 }
 
 render(<App />, document.getElementById("app"));

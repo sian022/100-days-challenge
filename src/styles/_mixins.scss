@@ -1,0 +1,5 @@
+@mixin CardStyles {
+  padding: $base-padding * 5;
+  border-radius: $border-radius;
+  background-color: white;
+}

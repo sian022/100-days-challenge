@@ -4,7 +4,22 @@
 
 body {
   font-family: "Roboto", "Lora", sans-serif;
+  color: #000;
   line-height: 1.5;
+  padding: 0;
+  overflow: hidden;
+}
+
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
   padding: 0;
 }
@@ -17,4 +32,13 @@ h5,
 h6 {
   font-family: "Lora", sans-serif;
   line-height: 1.2;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }

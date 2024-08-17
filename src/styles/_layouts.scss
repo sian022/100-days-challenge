@@ -1,0 +1,41 @@
+.DashboardLayout {
+  display: grid;
+  grid-template-areas:
+    "sidebar header"
+    "sidebar main";
+  grid-template-columns: 1fr 6fr;
+  grid-template-rows: auto 1fr;
+  gap: $base-gap * 2;
+  height: 100lvh;
+  padding: $base-padding * 2;
+  background-color: $color-background;
+}
+
+.SidebarContainer {
+  grid-area: sidebar;
+  @include CardStyles;
+}
+
+.HeaderContainer {
+  grid-area: header;
+  @include CardStyles;
+}
+
+.MainContainer {
+  grid-area: main;
+  @include CardStyles;
+}
+
+@media (max-width: $breakpoint-lg) {
+  .DashboardLayout {
+    grid-template-areas:
+      "header"
+      "main";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+  }
+
+  .SidebarContainer {
+    display: none;
+  }
+}
