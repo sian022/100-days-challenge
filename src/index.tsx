@@ -1,8 +1,9 @@
 import { render } from "preact";
-import "./style.css";
+import "./styles/main.scss";
+import Dashboard from "./pages/Dashboard";
 
 export function App() {
-  return <></>;
+  return <Dashboard />;
 }
 
 render(<App />, document.getElementById("app"));

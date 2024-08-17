@@ -8,7 +8,8 @@
 	},
 	"dependencies": {
 		"preact": "^10.22.1",
-		"preact-iso": "^2.6.3"
+		"preact-iso": "^2.6.3",
+		"sass": "^1.77.8"
 	},
 	"devDependencies": {
 		"@preact/preset-vite": "^2.9.0",
