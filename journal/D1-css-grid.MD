@@ -2,7 +2,7 @@
 
 ## Date
 
-2024-08-17
+`2024-08-17`
 
 ## Main Topic
 
@@ -10,12 +10,12 @@
 
 ## Summary
 
-`I learned how to use grid-template-areas to create a responsive dashboard design. I also learned other concepts along the way`
+I learned how to use `grid-template-areas` to create a responsive dashboard design. I also learned other concepts along the way
 
 ## Other Concepts
 
-- **Font Face** Setting up your own font face with downloaded Fonts
-- **HTML Elements Default Margins** Header elements (H1, H2), ul, li, etc have default margins and paddings
+- **Font Face** Setting up your own font face with downloaded Fonts, as opposed to previously just importing in CSS
+- **HTML Elements Default Margins** Header elements (H1, H2), ul, li, etc have default margins and paddings. Never noticed before, but after using UI libraries for long, realized the default paddings.
 
 ## Code Snippets
 

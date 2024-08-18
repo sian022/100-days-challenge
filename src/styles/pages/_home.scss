@@ -1,0 +1,9 @@
+.HomePage {
+  display: flex;
+  flex-direction: column;
+}
+
+.HomeWidgets {
+  display: grid;
+  grid-template-areas: "widget1 widget2 widget3";
+}
